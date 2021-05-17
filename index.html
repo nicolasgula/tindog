@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"></script>
+
+  <section id="title">
+
+    <div class="container">
+
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+
+        <a class="navbar-brand " href="#">tindog</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#que_es">Que es?</a></li>
+            <li class="nav-item"><a class="nav-link" href="#precio">Precio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#descargar">Descargar</a></li>
+          </ul>
+        </div>
+      </nav>
+
+
+
+
+      <!-- Title -->
+
+      <div class="row">
+        <div class="col-lg-6 ">
+          <h1>Conoce perros nuevos e interesantes en las cercanias</h1>
+          <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>
+            Descargar</button>
+          <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>
+            Descargar</button>
+        </div>
+
+
+        <div class="col-lg-6  ">
+          <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features">
+
+    <div class="row" id="que_es">
+
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-check-circle icons-feat"></i>
+        <h3>Fácil de usar.</h3>
+        <p>Es tan fácil de usar que hasta tu perro podría hacerlo.</p>
+      </div>
+
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-bullseye icons-feat"></i>
+        <h3>Clientela de élite</h3>
+        <p>Tenemos todos los perros, los mejores perros.</p>
+      </div>
+
+      <div class="col-lg-4 feature-box">
+        <i class="fas fa-heart icons-feat"></i>
+        <h3>Se garantiza su funcionamiento.</h3>
+        <p>Encuentre el amor de la vida de su perro o le devolvemos su dinero.</p>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+    <div id="carouselTestimonials" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>Ya no tengo que olfatear a otros perros en busca de amor. He encontrado la Caniche más caliente en TinDog.
+            Guau.</h2>
+          <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Pebbles, New York</em>
+        </div>
+
+        <div class="carousel-item">
+          <h2 class="testimonial-text">Mi perro solía ser tan solitario, pero con la ayuda de TinDog, ha encontrado el
+            amor de su vida.</h2>
+          <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Beverly, Illinois</em>
+        </div>
+
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselTestimonials" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden"></span>
+      </button>
+
+    </div>
+    </div>
+
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section id="press">
+    <img class="press-logo" src="images/TechCrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
+
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 id="precio">Un plan para las necesidades de cada perro</h2>
+    <p>Planes de precios sencillos y asequibles para usted y su perro.</p>
+
+    <div class="row">
+
+      <div class="pricing-column col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2>Gratis</h2>
+            <p>5 Matches por dia</p>
+            <p>10 Mensajes por dia</p>
+            <p>Uso ilimitado de la aplicación</p>
+            <div class="d-grid">
+              <button type="button" class="btn btn-outline-dark btn-lg">Registrate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4 col-md-6 ">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2>$49 al mes</h2>
+            <p>Matches ilimitados</p>
+            <p>Mensajes ilimitados</p>
+            <p>Uso ilimitado de la aplicación</p>
+            <div class="d-grid">
+              <button type="button" class="btn btn-dark btn-lg">Regitrate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="pricing-column col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2>$99 al mes</h2>
+            <p>Lista de prioridad</p>
+            <p>Matches ilimitados</p>
+            <p>Mensajes ilimitados</p>
+            <p>Uso ilimitado de la aplicación</p>
+            <div class="d-grid">
+              <button type="button" class="btn btn-dark btn-lg">Registrate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-title" id="descargar">Encuentre hoy el amor de la vida de su perro.</h3>
+    <button type="button" class="btn btn-dark download-button"><i class="fab fa-apple"></i> Descargar</button>
+    <button type="button" class="btn btn-outline-light download-button"><i class="fab fa-google-play"></i>
+      Descargar</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <i class="fab fa-twitter footer-logo"></i>
+    <i class="fab fa-facebook-f footer-logo"></i>
+    <i class="fab fa-instagram footer-logo"></i>
+    <i class="fas fa-envelope footer-logo"></i>
+    <p>© Copyright 2021 TinDog</p>
+
+  </footer>
+
+
+</body>
+
+</html>

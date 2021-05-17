@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat Regular';
+}
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* .container-fluid {
+  padding: 3% 0 7%;
+} */
+
+h1 {
+  font-family: 'Montserrat Black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+h2 {
+  font-family: 'Montserrat Black';
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/*Navigation Bar*/
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight:bold;
+}
+
+.nav-item {
+  padding: 0 30px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat Light'
+}
+
+/* Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+@media (max-width: 1028px) {
+  .title-image{
+    width: 60%;
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+/* Features */
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+.icons-feat {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.icons-feat:hover {
+  color: #ff4c68;
+}
+
+/*--Testimonial section--*/
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color:#fff;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+ .pricing-column {
+   padding: 3% 2%;
+ }
+
+/*----Call to action----*/
+ #cta {
+   padding: 7% 15%;
+   background-color: #ff4c68;
+   text-align: center;
+ }
+
+ .cta-title {
+   color: #fff;
+   font-family: 'Montserrat';
+   font-weight: bold;
+   font-size: 3rem;
+   width: 90%;
+   text-align: center;
+   margin: 0 auto;
+ }
+
+ /*----Footer----*/
+
+ #footer{
+   background-color: #fff;
+   text-align: center;
+   padding: 7% 15%;
+ }
+
+ .footer-logo {
+   margin: 5% 2%;
+ }
